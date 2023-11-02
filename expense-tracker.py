@@ -56,7 +56,7 @@ def start_expense_program():
             # Store the expense in the user's collection (using their UID as the collection name)
             user_uid = user['localId']
             user_collection = db.child('users').child(user_uid).child('expenses')
-            user_collection.push(data)
+            user_collection.push(data, user['idToken'])
 
             update_expense_list()
             clear_entries()
@@ -81,7 +81,7 @@ def start_expense_program():
         user_uid = user['localId']
         user_collection = db.child('users').child(user_uid).child('expenses')
         expense_ref = user_collection.child(selected_expense_id)
-        expense_data = expense_ref.get().val()
+        expense_data = expense_ref.get(user['idToken']).val()
 
         # Create a Calendar widget for date selection
         date_label = ttk.Label(edit_window, text='Date:')

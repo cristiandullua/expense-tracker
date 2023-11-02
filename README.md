@@ -2,9 +2,9 @@
 
 I have developed an Expense Tracker software that allows users to track their expenses. The software is designed to integrate with a cloud database, specifically Firebase, to securely store and manage expense data. This project serves as a practical endeavor to further my learning as a software engineer by gaining hands-on experience with cloud databases and creating a user-friendly expense tracking application.
 
-I have also created a 4-5 minute demonstration video showcasing the software in action, providing a walkthrough of the code, and demonstrating the integration with the cloud database.
+I have also created a 5 minute demonstration video showcasing the software in action, providing a walkthrough of the code, and demonstrating the integration with the cloud database.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/cde6d611c8a841a9a146e246757da028?sid=4d1fc355-af6f-4db1-a87d-f42cadc53c02)
 
 # Cloud Database
 
